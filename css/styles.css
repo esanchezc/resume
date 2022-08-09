@@ -1,14 +1,19 @@
 body {
-    background-color: rgba(231, 244, 242, 0.832);
+    margin-left: 10px;
 }
 
 hr {
-    border-color: rgb(233, 117, 17);
+    border-color: rgb(119, 121, 121);
     border-width: 7px;
     border-style: dotted none none none;
-    width: 10%;
+    width: 80%;
 }
 
-h1, h3 {
-    color: rgb(26, 186, 239)
+h1, h2, h3 {
+    color: rgb(14, 98, 125)
+}
+
+.circular {
+    clip-path: circle(100px at center);
+    margin-left: -50px;
 }
